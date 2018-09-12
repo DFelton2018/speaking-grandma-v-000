@@ -21,7 +21,7 @@
 #end
 
 def speak_to_grandma(phrase)
-  if phrase.downcase
+  if phrase != phrase.capitalize
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase === phrase.capitalize
     return "NO, NOT SINCE 1938!"
