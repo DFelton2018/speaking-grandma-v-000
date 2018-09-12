@@ -11,3 +11,21 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+
+
+#if char === char.capitalize then
+#  return 'Character is uppercase.'
+#else
+#  return 'Character is lowercase.'
+#end
+
+def speak_to_grandma(phrase)
+  if phrase.downcase
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif phrase === phrase.capitalize
+    return "NO, NOT SINCE 1938!"
+  
+  end
+end
+
